@@ -14,17 +14,14 @@ Welcome to my personal portfolio of hands-on projects developed during the **AI 
 
 Each folder contains a complete project delivered as part of the master's curriculum:
 
-ai-portfolio/
-├── 01- Python OOP
-├── 02-
-├── 03-
-├── 04-
-├── 05-
-├── 06-
-├── 07-
-├── 08-
-├── 09-
-├── 10-
+## 📂 Projects
+
+| #  | Project                                              | Description                             |
+|----|------------------------------------------------------|-----------------------------------------|
+| 01 | [ContactEase](./01-contactease-python)               | Contact manager app using Python OOP    |
+| 02 | [CRM Insurance (C++)](./02-crm-insurance-cpp)        | CRM app for insurance business in C++   |
+| 03 | [Housing Price Prediction](./03-ml-housing-prediction) | Machine Learning regression model     |
+
 
 ## 📬 Contact
 
