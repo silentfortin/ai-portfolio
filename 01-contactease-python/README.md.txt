@@ -1,11 +1,11 @@
-# 📇 ContactEase – Python Contact Manager
+📇 ContactEase – Python Contact Manager
 
 > Developed during **Week 1** of the [AI Engineering Master](https://github.com/silentfortin/ai-portfolio)  
 > A simple, interactive, and persistent contact manager built with Python and Object-Oriented Programming principles.
 
 ---
 
-## 📌 Project Overview
+📌 Project Overview
 
 ContactEase aims to simplify how users manage their phone contacts. Many users struggle with organizing and accessing personal contact information efficiently. This project provides a **command-line interface (CLI)** for adding, modifying, deleting, and searching for contacts, all in one place.
 
@@ -13,7 +13,7 @@ Data is persistently stored in a **JSON file**, allowing the application to reta
 
 ---
 
-## 🧱 Technologies and Concepts
+🧱 Technologies and Concepts
 
 - ✅ **Python 3**
 - ✅ **Object-Oriented Programming (OOP)**
@@ -24,7 +24,7 @@ Data is persistently stored in a **JSON file**, allowing the application to reta
 
 ---
 
-## 🚀 Features
+🚀 Features
 
 - 🔹 **Add Contact**: Create a new contact with validated name, surname, and phone number.
 - 🔹 **Edit Contact**: Modify name, surname, or phone (with format validation).
@@ -35,7 +35,7 @@ Data is persistently stored in a **JSON file**, allowing the application to reta
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 All logic is implemented in a single `.ipynb` (Jupyter/Colab) file, structured into:
 
@@ -46,7 +46,7 @@ All logic is implemented in a single `.ipynb` (Jupyter/Colab) file, structured i
 
 ---
 
-## 🛠 How to Use (in Colab or Locally)
+🛠 How to Use (in Colab or Locally)
 
 1. Run all cells in order.
 2. Interact with the main menu in the terminal or Colab cell.
@@ -54,7 +54,7 @@ All logic is implemented in a single `.ipynb` (Jupyter/Colab) file, structured i
 
 ---
 
-## 📝 Notes
+📝 Notes
 
 - Input validation ensures users cannot add empty fields or invalid phone numbers.
 - JSON data includes unique `id` fields to prevent accidental overwrites.
@@ -62,7 +62,7 @@ All logic is implemented in a single `.ipynb` (Jupyter/Colab) file, structured i
 
 ---
 
-## 📎 License & Credits
+📎 License & Credits
 
 This project is part of an individual portfolio developed for the **AI Engineering Master**.  
 No external libraries are required.
