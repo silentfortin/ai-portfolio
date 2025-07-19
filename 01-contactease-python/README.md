@@ -1,4 +1,4 @@
-📇 ContactEase – Python Contact Manager
+📇 ContactEase Solutions– Python Contact Manager
 
 > Developed during **Week 1** of the [AI Engineering Master](https://github.com/silentfortin/ai-portfolio)  
 > A simple, interactive, and persistent contact manager built with Python and Object-Oriented Programming principles.
