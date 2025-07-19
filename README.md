@@ -16,8 +16,6 @@ Each folder contains a complete project delivered as part of the master's curric
 
 ## 📂 Projects
 
-## 📂 Projects
-
 | #  | Project                                              | Description                                                          |
 |----|------------------------------------------------------|----------------------------------------------------------------------|
 | 01 | [ContactEase](./01-contactease-python)               | Contact manager software developed in Python                         |
