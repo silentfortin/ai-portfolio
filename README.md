@@ -37,8 +37,6 @@ Feel free to connect or reach out:
 
 - 📧 Email: cogliandro.fortunato@gmail.com
 - 🔗 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
-- 🌐 Portfolio Website: *(if available)*
-
 ---
 
 
