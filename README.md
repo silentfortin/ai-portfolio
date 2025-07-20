@@ -1,7 +1,9 @@
-# 🧠 AI Engineering Portfolio []
+# 🧠 AI Engineering Portfolio 
 
 🚧 Repository in Continuous Development 🚧
 This repository is a work in progress. I am currently working on the 11 required projects, which are under active development and continuously updated. Each project will be added as it is completed.
+
+---
 
 Welcome to my personal portfolio of hands-on projects developed during the **AI Engineering Master's Program**. This repository showcases a variety of real-world use cases across:
 
