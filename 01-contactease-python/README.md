@@ -7,7 +7,7 @@
 
 📌 Project Overview
 
-ContactEase aims to simplify how users manage their phone contacts. Many users struggle with organizing and accessing personal contact information efficiently. This project provides a **command-line interface (CLI)** for adding, modifying, deleting, and searching for contacts, all in one place.
+ContactEase aims to simplify how users manage their phone contacts. Many users struggle with organizing and accessing personal contact information efficiently. This project provides a **command-line interface (CLI)** for adding, showing, modifying, deleting, and searching for contacts, all in one place.
 
 Data is persistently stored in a **JSON file**, allowing the application to retain contact information across sessions.
 
