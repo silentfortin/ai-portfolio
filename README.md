@@ -27,7 +27,7 @@ Each folder contains a complete project delivered as part of the master's curric
 | 01 | [ContactEase](./01-contactease-python)               | Contact manager software developed in Python                         |
 | 02 | [CRM Insurance (C++)](./02-crm-insurance-cpp)        | CRM system for an insurance business, developed in C++               |
 | 03 | [Housing Price Prediction](./03-ml-housing-prediction)| Machine Learning model for real estate market price prediction       |
-| 04 | [Exotic Fruit Classifier (KNN)](./04-ml-fruit-classification) | Classification of exotic fruits using a KNN model         |
+| 04 | [Exotic Fruit Classifier (KNN)](./04-exotic-fruit-classifier) | Classification of exotic fruits using a KNN model         |
 | 05 | [Online Reputation Monitor](./05-mlops-reputation)   | Monitoring a company's online reputation (MLOps)                     |
 | 06 | [Autonomous Animal Recognition](./06-dl-autonomous-vehicle) | Animal recognition for autonomous vehicles (Deep Learning)  |
 | 07 | [Food Neural Network Optimization](./07-dl-pytorch-food)      | Performance optimization of a neural network for the food sector     |
