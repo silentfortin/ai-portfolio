@@ -25,16 +25,17 @@ Each folder contains a complete project delivered as part of the master's curric
 | #  | Project                                              | Description                                                          |
 |----|------------------------------------------------------|----------------------------------------------------------------------|
 | 01 | [ContactEase](./01-contactease-python)               | Contact manager software developed in Python                         |
-| 02 | [Housing Price Prediction](./03-ml-housing-prediction)| Machine Learning model for real estate market price prediction       |
-| 03 | [Exotic Fruit Classifier (KNN)](./04-exotic-fruit-classifier) | Classification of exotic fruits using a KNN model         |
-| 04 | [Autonomous Animal Recognition](./05-dl-autonomous-vehicle) | Animal recognition for autonomous vehicles (Deep Learning)  |
-| 05 | [Food Neural Network Optimization](./06-dl-pytorch-food)      | Performance optimization of a neural network for the food sector     |
-| 06 | [Flowers Vision AgriTech](./08-cv-flower-recognition)         | Flower recognition for an AgriTech company (Computer Vision)         |
-| 07 | [Healthcare CyberSec RL](./09-rl-cybersec-healthcare)         | Cybersecurity for healthcare using Reinforcement Learning            |
-| 08 | [Power Plant Data Augmentation](./10-genai-powerplant)        | Data augmentation for power plant security (Generative AI)           |
-| 09 | [Online Reputation Monitor](./05-mlops-reputation)   | Monitoring a company's online reputation (MLOps)                     |
-| 10 | [XAI for Banking Compliance](./11-xai-banking-compliance)     | Explaining a neural network for regulatory compliance in banking     |
-| 11 | [CRM Insurance (C++)](./02-crm-insurance-cpp)        | CRM system for an insurance business, developed in C++               |
+| 02 | [CRM Insurance (C++)](./02-crm-insurance-cpp)        | CRM system for an insurance business, developed in C++               |
+| 03 | [Housing Price Prediction](./03-ml-housing-prediction)| Machine Learning model for real estate market price prediction       |
+| 04 | [Exotic Fruit Classifier (KNN)](./04-exotic-fruit-classifier) | Classification of exotic fruits using a KNN model         |
+| 05 | [Autonomous Animal Recognition](./05-dl-autonomous-vehicle) | Animal recognition for autonomous vehicles (Deep Learning)  |
+| 06 | [Food Neural Network Optimization](./06-dl-pytorch-food)      | Performance optimization of a neural network for the food sector     |
+| 07 | [Flowers Vision AgriTech](./07-cv-flower-recognition)         | Flower recognition for an AgriTech company (Computer Vision)         |
+| 08 | [Healthcare CyberSec RL](./08-rl-cybersec-healthcare)         | Cybersecurity for healthcare using Reinforcement Learning            |
+| 09 | [Power Plant Data Augmentation](./09-genai-powerplant)        | Data augmentation for power plant security (Generative AI)           |
+| 10 | [Online Reputation Monitor](./10-mlops-reputation)   | Monitoring a company's online reputation (MLOps)                     |
+| 11 | [XAI for Banking Compliance](./11-xai-banking-compliance)     | Explaining a neural network for regulatory compliance in banking     |
+
 
 
 ## 📬 Contact
