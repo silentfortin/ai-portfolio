@@ -1,6 +1,6 @@
 🏠 RealEstateAI Solutions – Predictive Modeling for Real Estate Pricing
 
-> Developed as part of **AI Engineering Master – Week 2**  
+> Developed as part of **AI Engineering Master – Week 3**  
 > This project builds predictive models to estimate real estate prices using regularized linear regression techniques.
 
 ---
@@ -76,3 +76,4 @@ This project is part of an individual portfolio developed for the **AI Engineeri
 No external libraries beyond standard data science stack are required.
 
 GitHub: [ai-portfolio – silentfortin](https://github.com/silentfortin/ai-portfolio/)
+
