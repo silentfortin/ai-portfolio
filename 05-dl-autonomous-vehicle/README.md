@@ -1,6 +1,6 @@
 # 🚘 VisionTechAI – Animal Recognition for Autonomous Driving
 
-> Developed as part of **AI Engineering Master – Week 3**  
+> Developed as part of **AI Engineering Master – Week 5**  
 > This project builds and evaluates convolutional neural networks (CNNs) to distinguish between vehicles and animals, supporting safer urban mobility for autonomous driving systems.
 
 ---
@@ -85,3 +85,4 @@ This project is part of an individual portfolio developed for the **AI Engineeri
 All experiments are implemented in **TensorFlow/Keras** using the **CIFAR-10 dataset**.  
 
 GitHub: [ai-portfolio – silentfortin](https://github.com/silentfortin/ai-portfolio/)  
+
