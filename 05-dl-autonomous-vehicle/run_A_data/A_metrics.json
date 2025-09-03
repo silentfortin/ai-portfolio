@@ -1,0 +1,27 @@
+{
+    "vehicle": {
+        "precision": 0.9622063329928499,
+        "recall": 0.942,
+        "f1-score": 0.9519959575543203,
+        "support": 4000.0
+    },
+    "non-vehicle": {
+        "precision": 0.9618671926364234,
+        "recall": 0.9753333333333334,
+        "f1-score": 0.9685534591194969,
+        "support": 6000.0
+    },
+    "accuracy": 0.962,
+    "macro avg": {
+        "precision": 0.9620367628146367,
+        "recall": 0.9586666666666667,
+        "f1-score": 0.9602747083369085,
+        "support": 10000.0
+    },
+    "weighted avg": {
+        "precision": 0.9620028487789939,
+        "recall": 0.962,
+        "f1-score": 0.9619304584934263,
+        "support": 10000.0
+    }
+}
