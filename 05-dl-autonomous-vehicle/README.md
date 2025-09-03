@@ -10,7 +10,8 @@
 VisionTechAI addresses the challenge of **real-time image recognition** for autonomous driving, with a specific focus on identifying **vehicles vs. animals**.  
 The system leverages **Convolutional Neural Networks (CNNs)** trained on the **CIFAR-10 dataset**, enabling classification to support **traffic monitoring**, **wildlife protection**, and **accident prevention**.
 
-The project experiments with **different CNN architectures and optimization strategies** to evaluate trade-offs between **accuracy**, **generalization**, and **computational efficiency**.
+The project experimented with **different CNN architectures and optimization strategies** to evaluate trade-offs between **accuracy**, **generalization**, and **computational efficiency**.  
+This repository includes the **best-performing model (Run A – Baseline CNN)** and all files needed for reproducibility.
 
 ---
 
@@ -23,17 +24,17 @@ The project experiments with **different CNN architectures and optimization stra
 - ✅ **Image preprocessing and data augmentation**  
 - ✅ **Optimizers**: Adam, RMSprop, Cosine Decay scheduling  
 - ✅ **Early stopping & model checkpointing**  
-- ✅ **Evaluation metrics**: Accuracy, Precision, Recall, AUC  
+- ✅ **Evaluation metrics**: Accuracy, Precision, Recall, F1-score  
 
 ---
 
 ## 🚀 Features
 
-- 🔹 **Binary classification**: vehicles (car, truck, airplane, ship) vs. animals (all other CIFAR classes)  
+- 🔹 **Binary classification**: vehicles (airplane, automobile, ship, truck) vs. animals (all other CIFAR classes)  
 - 🔹 Data preprocessing with **normalization and augmentation** (rotation, shifts, flips, zoom, shear)  
-- 🔹 Custom CNNs with variable depth, dropout, and dense layers  
-- 🔹 Experimental comparison of **optimizers (Adam, RMSprop)** and **learning rate scheduling**  
-- 🔹 Full training pipeline with **early stopping, checkpointing, and performance logging**  
+- 🔹 Custom CNN architecture with 3 convolutional blocks and a dense layer  
+- 🔹 Experimental comparison of **optimizers (Adam, RMSprop)** and **model capacities**  
+- 🔹 Training pipeline with **early stopping, checkpointing, and performance logging**  
 - 🔹 Visualization of **accuracy/loss curves** and **confusion matrices**  
 - 🔹 Model persistence (`.keras`, `.json`, `.csv`, `.npy`) for reproducibility  
 
@@ -41,18 +42,18 @@ The project experiments with **different CNN architectures and optimization stra
 
 ## 📂 Project Structure
 
-- `dl-autonomous-vehicle.ipynb`: Main notebook with full implementation and experiments  
+- `dl-autonomous-vehicle.ipynb`: Main notebook with full implementation  
 - `README.md`: Project documentation  
-- `best_model.keras`: Saved best-performing model  
-- `history_runX.csv`: Training history per run  
-- `metrics_runX.json`: Evaluation metrics per run  
+- `best_model_runA.keras`: Saved best-performing model (Run A)  
+- `history_runA.csv`: Training history of Run A  
+- `metrics_runA.json`: Evaluation metrics of Run A  
 - `x_test_norm_cnn.npy, y_test_bin.npy`: Test data for reproducibility  
 
 ---
 
 ## 📊 Experimental Setup & Results
 
-Three main runs were performed to test different trade-offs:
+Three experimental runs were performed to test different trade-offs:
 
 | Run | Model       | Optimizer & Schedule       | Architecture (filters, dense) | Regularization | Goal |
 | --- | ----------- | -------------------------- | ----------------------------- | -------------- | ---- |
@@ -60,31 +61,29 @@ Three main runs were performed to test different trade-offs:
 | B   | CNN base    | **RMSprop + CosineDecay**  | 32 → 64 → 128, Dense=256      | Dropout 0.3–0.5 | Assess impact of RMSprop + LR scheduling |
 | C   | CNN light   | **Adam** (lr=1e-3)         | 16 → 32 → 64, Dense=128       | Dropout 0.3     | Trade-off between accuracy and efficiency (edge deployment) |
 
-**Metrics tracked per run**:  
-- Accuracy  
-- Precision & Recall  
-- F1-score  
-
-### Notes
-- Run B investigates the effect of **changing the optimizer + adding a CosineDecay learning rate schedule** while keeping the convolutional backbone identical to Run A.  
-- Run C explores **reduced-capacity architecture** (fewer filters / smaller dense) while keeping Adam to isolate the effect of model capacity on accuracy vs. efficiency.  
-- All runs use the same preprocessing, augmentation, batch size and training protocol (where applicable) to ensure a fair comparison.
-
-👉 Example (Run A – Baseline):
-
-- **Accuracy:** ~81%  
-- **Precision (vehicle):** 0.69  
-- **Recall (vehicle):** 0.98  
-- **Precision (non-vehicle):** 0.98  
-- **Recall (non-vehicle):** 0.70  
+### Results summary
 
 ---
 
-## 📝 Notes 
+## 📊 Key Results (Run A – Baseline CNN)
 
-- The **baseline CNN with Adam (Run A)** shows very high recall for vehicles but weaker precision, leading to many false positives.  
-- The **RMSprop + CosineDecay setup (Run B)** stabilizes recall but results in an overall drop in accuracy compared to the baseline.  
-- The **lightweight CNN with Adam (Run C)** achieves a reasonable trade-off between accuracy and model complexity, making it more suitable for deployment on edge devices.  
+| Metric      | Vehicle | Non-Vehicle | Overall |
+|-------------|---------|-------------|---------|
+| **Accuracy** |   –     |     –       | **96.2%** |
+| **Precision** | 0.962 | 0.962       |   –     |
+| **Recall**    | 0.942 | 0.975       |   –     |
+| **F1-score**  | 0.952 | 0.969       |   –     |
+
+✅ Stable convergence with no signs of overfitting  
+✅ Balanced precision–recall across both classes  
+✅ ~6% of vehicles misclassified as non-vehicles, ~2% of non-vehicles misclassified as vehicles  
+
+---
+
+- **Run B (RMSprop + CosineDecay)**: 95.8% accuracy, slightly lower precision on vehicles but smoother validation dynamics.  
+- **Run C (Light CNN)**: 95.3% accuracy, only marginally worse than Run A despite reduced capacity, showing efficiency potential.  
+
+👉 The repository includes **Run A only**, as it represents the best trade-off between accuracy and complexity.
 
 ---
 
