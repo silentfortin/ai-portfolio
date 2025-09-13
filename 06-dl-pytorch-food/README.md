@@ -21,26 +21,26 @@ This repository includes the **best-performing fine-tuned model** and all files 
 
 ## 🧱 Technologies and Concepts
 
-- ✅ **Python 3.x**  
-- ✅ **PyTorch & Torchvision**  
-- ✅ **NumPy, Matplotlib, Seaborn**  
-- ✅ **ResNet50 Transfer Learning**  
-- ✅ **Data preprocessing and augmentation**  
-- ✅ **Optimizers**: AdamW with **Cosine Annealing LR**  
-- ✅ **Gradual unfreezing** for fine-tuning  
-- ✅ **Early stopping & model checkpointing**  
-- ✅ **Evaluation metrics**: Accuracy, Precision, Recall, F1-score, Confusion Matrix  
+- ✅ Python 3.x  
+- ✅ PyTorch & Torchvision  
+- ✅ NumPy, Matplotlib, Seaborn  
+- ✅ ResNet50 Transfer Learning  
+- ✅ Data preprocessing and augmentation  
+- ✅ Optimizers: AdamW with Cosine Annealing LR  
+- ✅ Gradual unfreezing for fine-tuning  
+- ✅ Early stopping & model checkpointing  
+- ✅ Evaluation metrics: Accuracy, Precision, Recall, F1-score, Confusion Matrix  
 
 ---
 
 ## 🚀 Features
 
-- 🔹 **Multi-class classification**: 14 food categories (e.g., *Donut, Fries, Sushi, Ice Cream*)  
-- 🔹 Data preprocessing with **normalization and augmentation** (crop, rotation, color jitter, flips)  
-- 🔹 **Baseline vs. fine-tuned model** comparison  
-- 🔹 **Gradual unfreezing strategy** to improve performance  
-- 🔹 Training pipeline with **early stopping, checkpointing, and learning rate scheduling**  
-- 🔹 Visualization of **accuracy/loss curves** and **confusion matrices**  
+- 🔹 Multi-class classification: 14 food categories (e.g., *Donut, Fries, Sushi, Ice Cream*)  
+- 🔹 Data preprocessing with normalization and augmentation (crop, rotation, color jitter, flips)  
+- 🔹 Baseline vs. fine-tuned model comparison  
+- 🔹 Gradual unfreezing strategy to improve performance  
+- 🔹 Training pipeline with early stopping, checkpointing, and learning rate scheduling  
+- 🔹 Visualization of accuracy/loss curves and confusion matrices  
 - 🔹 Model persistence (`.pth`) for reproducibility  
 
 ---
@@ -51,7 +51,7 @@ This repository includes the **best-performing fine-tuned model** and all files 
 - `README.md`: Project documentation  
 - `baseline_model.pth`: Saved baseline model (feature extractor)  
 - `best_finetuned_model.pth`: Best-performing fine-tuned model  
-- `plots/`: Visualization results (accuracy curves, confusion matrix, predictions)  
+- `Visualization results`: accuracy curves, confusion matrix, predictions 
 
 ---
 
@@ -59,22 +59,22 @@ This repository includes the **best-performing fine-tuned model** and all files 
 
 Two main experimental setups were performed:
 
-| Run | Model Setup         | Training Strategy                   | Optimizer & LR        | Goal |
-| --- | ------------------- | ----------------------------------- | --------------------- | ---- |
-| A   | **Baseline ResNet50** | Frozen backbone, classifier only     | AdamW (lr=1e-3)       | Establish baseline |
-| B   | **Fine-tuned ResNet50** | Gradual unfreezing: fc → layer4 → layer3 | AdamW + CosineAnnealing | Improve performance |
+| Run | Model Setup             | Training Strategy                   | Optimizer & LR          | Goal               |
+| --- | ----------------------- | ----------------------------------- | ----------------------- | ------------------ |
+| A   | Baseline ResNet50       | Frozen backbone, classifier only     | AdamW (lr=1e-3)         | Establish baseline |
+| B   | Fine-tuned ResNet50     | Gradual unfreezing: fc → layer4 → layer3 | AdamW + CosineAnnealing | Improve performance|
 
 ---
 
-## 📊 Key Results (Run B – Fine-tuned ResNet50)
+## 📊 Key Results
 
-| Metric      | Score |
-|-------------|-------|
-| **Test Accuracy** | **88.36%** |
-| **Macro F1-score** | **0.8838** |
+| Model                  | Test Accuracy | Macro F1-score |
+|-------------------------|---------------|----------------|
+| **Baseline ResNet50**   | 81.43%        | 0.8147         |
+| **Fine-tuned ResNet50** | **88.36%**    | **0.8838**     |
 
 ✅ Stable convergence with no overfitting  
-✅ Significant improvement over baseline (≈ +3%)  
+✅ **Significant improvement over baseline (~ +7%)**  
 ✅ Balanced performance across 14 food classes  
 ✅ Robust classification of complex categories (e.g., *Sushi, Donut, Fries*)  
 
