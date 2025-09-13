@@ -71,7 +71,7 @@ Two main experimental setups were performed:
 | Model                  | Test Accuracy | Macro F1-score |
 |-------------------------|---------------|----------------|
 | **Baseline ResNet50**   | 81.43%        | 0.8147         |
-| **Fine-tuned ResNet50** | **88.36%**    | **0.8838**     |
+| **Fine-tuned ResNet50** | **88.86%**    | **0.8883**     |
 
 ✅ Stable convergence with no overfitting  
 ✅ **Significant improvement over baseline (~ +7%)**  
@@ -86,3 +86,4 @@ This project is part of an individual portfolio developed for the **AI Engineeri
 All experiments are implemented in **PyTorch** using the **Food Classification dataset** provided in the course.  
 
 GitHub: [ai-portfolio](https://github.com/silentfortin/ai-portfolio/edit/main/06-dl-pytorch-food/)
+
