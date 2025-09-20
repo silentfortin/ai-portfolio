@@ -64,7 +64,7 @@ Two main experimental setups were performed:
 
 | Run | Model Setup             | Training Strategy                  | Optimizer & LR         | Goal               |
 | --- | ----------------------- | ---------------------------------- | ---------------------- | ------------------ |
-| A   | Baseline EfficientNet-B0| Frozen backbone (feature extractor)| AdamW (lr=1e-3)        | Establish baseline |
+| A   | Baseline EfficientNet-B0| Frozen backbone (feature extractor)| AdamW (lr=1e-3) + Cosine| Establish baseline |
 | B   | Fine-tuned EfficientNet | All layers trainable after 5 epochs| AdamW (lr=1e-4) + Cosine| Maximize F1-score |
 
 ---
@@ -89,3 +89,4 @@ This project is part of an individual portfolio for GreenTech Solutions Ltd.
 All experiments are implemented in **PyTorch** using a real-world flower classification dataset provided in the assignment.
 
 Notebook & results: [cv_flower_recognition.ipynb](https://github.com/silentfortin/ai-portfolio/blob/main/07-cv-flower-recognition/cv_flower_recognition.ipynb)
+
