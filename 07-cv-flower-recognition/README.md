@@ -51,10 +51,9 @@ This repository includes the **final best-performing model** and all files neede
 
 - `cv_flower_recognition.ipynb`: Main notebook with code and documentation  
 - `README.md`: Project documentation  
-- `checkpoint.pt`: Final/best model checkpoint  
-- `training_history.json`: Training curves and metrics  
-- `test_results.json`: Classification report on test set  
-- `Visualizations/`: Loss, accuracy, F1-score, and confusion matrix plots  
+- `data/checkpoint.pt`: Final/best model checkpoint  
+- `data/training_history.json`: Training curves and metrics  
+- `data/test_results.json`: Classification report on test set  
 
 ---
 
@@ -73,8 +72,8 @@ Two main experimental setups were performed:
 
 | Model                    | Test Accuracy | Macro F1-score |
 |--------------------------|---------------|----------------|
-| **Baseline EfficientNet**|    92%        |   0.92         |
-| **Fine-tuned EfficientNet** | **95%**   | **0.94**       |
+| **Baseline EfficientNet**|    ~92%        |   ~0.92         |
+| **Fine-tuned EfficientNet** | **94%**   | **0.94**       |
 
 ✅ Stable convergence, no overfitting  
 ✅ **Strong improvement over baseline**  
@@ -89,4 +88,5 @@ This project is part of an individual portfolio for GreenTech Solutions Ltd.
 All experiments are implemented in **PyTorch** using a real-world flower classification dataset provided in the assignment.
 
 Notebook & results: [cv_flower_recognition.ipynb](https://github.com/silentfortin/ai-portfolio/blob/main/07-cv-flower-recognition/cv_flower_recognition.ipynb)
+
 
