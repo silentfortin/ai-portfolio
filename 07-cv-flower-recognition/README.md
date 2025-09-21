@@ -76,7 +76,7 @@ Two main experimental setups were performed:
 | **Fine-tuned EfficientNet** | **94%**   | **0.94**       |
 
 ✅ Stable convergence, no overfitting  
-✅ **Strong improvement over baseline**  
+✅ Improvement over baseline
 ✅ Balanced results on both Daisy and Dandelion classes  
 ✅ Robust classification, ready for real-world AgriTech deployment  
 
@@ -88,5 +88,6 @@ This project is part of an individual portfolio for GreenTech Solutions Ltd.
 All experiments are implemented in **PyTorch** using a real-world flower classification dataset provided in the assignment.
 
 Notebook & results: [cv_flower_recognition.ipynb](https://github.com/silentfortin/ai-portfolio/blob/main/07-cv-flower-recognition/cv_flower_recognition.ipynb)
+
 
 
