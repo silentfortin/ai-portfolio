@@ -41,19 +41,17 @@ All data is stored in memory using **C++ Standard Template Library (STL)** conta
 ---
 
 ## 📂 Project Structure
-
 InsuraPro/
-├── main.cpp
-├── Customer.h
-├── Customer.cpp
-├── Interaction.h
-├── Interaction.cpp
-├── CRM.h
-├── CRM.cpp
-├── customers.csv
-├── interactions.csv
-└── README.md
-
+|-- main.cpp
+|-- Customer.h
+|-- Customer.cpp
+|-- Interaction.h
+|-- Interaction.cpp
+|-- CRM.h
+|-- CRM.cpp
+|-- customers.csv
+|-- interactions.csv
+`-- README.md
 
 ### Classes:
 - **Customer** – represents an individual client and their contact info.  
@@ -89,6 +87,6 @@ g++ -std=c++17 main.cpp Customer.cpp Interaction.cpp CRM.cpp -o crm
 
 This project was developed as part of the **AI Engineering Master**.  
 No external libraries were used.  
-All code and documentation authored by *[Your Name]*.  
 
 GitHub: [ai-portfolio – silentfortin](https://github.com/silentfortin/ai-portfolio/tree/main/02-crm-insurance-cpp)
+
