@@ -33,7 +33,7 @@ Each folder contains a complete project delivered as part of the master's curric
 | 07 | [Flowers Vision AgriTech](./07-cv-flower-recognition)         | Flower recognition for an AgriTech company (Computer Vision)         |
 | 08 | [Healthcare CyberSec RL](./08-rl-cybersec-healthcare)         | Cybersecurity for healthcare using Reinforcement Learning            |
 | 09 | [Power Plant Data Augmentation](./09-genai-powerplant)        | Data augmentation for power plant security (Generative AI)           |
-| 10 | [Online Reputation Monitor]([./10-mlops-reputation](https://github.com/silentfortin/sentiment-monitoring-mlops))   | Monitoring a company's online reputation (MLOps)                     |
+| 10 | [Online Reputation Monitor](https://github.com/silentfortin/sentiment-monitoring-mlops) | Monitoring a company's online reputation (MLOps) |
 | 11 | [XAI for Banking Compliance](./11-xai-banking-compliance)     | Explaining a neural network for regulatory compliance in banking     |
 
 
