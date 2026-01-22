@@ -10,7 +10,7 @@
 The notebook tackles the challenge of interpreting and diagnosing a vision classifier’s decisions by analyzing both a **correct** and an **incorrect** prediction.
 A pretrained **DenseNet121 (ImageNet)** is adapted to MNIST by freezing the convolutional feature extractor and replacing the final classifier with a **10-class linear head**, then fine-tuned on MNIST. 
 
-Main pipeline: [file:1]  
+Main pipeline: 
 1. MNIST preprocessing to match ImageNet models (resize, channel replication, normalization).
 2. Fine-tuning and evaluation on the MNIST test set.
 3. Automatic selection of one **GOOD** (correctly classified) and one **BAD** (misclassified) sample. 
