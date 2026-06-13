@@ -43,7 +43,7 @@ Each folder contains a complete project delivered as part of the master's curric
 Feel free to connect or reach out:
 
 - 📧 Email: cogliandro.fortunato@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
+- 🔗 LinkedIn: [linkedin.com/in/fc]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/fortunato-cogliandro-66958618b/))  
 ---
 
 
